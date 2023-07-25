@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --color-cards: #ccc;
+    --color-negro: black;
+    --color-fuente: #2a3242;
+    --color-fuente2: #6B7A99;
+    --color-blanco: white;
+    --color-gris: grey;
+    --color-topnav: #F7F8FA;
+}
+
+.single-product {
+
+    width: 80%;
+    border-left: var(--color-cards) solid 1px;
+    border-right: var(--color-cards) solid 1px;
+    border-top: var(--color-cards) solid 1px;
+    border-bottom: var(--color-cards) solid 1px;!important;
+    border-radius: 5px;
+    margin: 0 10% 0 10%;
+    
+    -webkit-box-shadow: 3.5px 2.5px 5px 0px rgba(0,0,0,0.15);
+    background-color: var(--color-blanco);
+
+    float: none;
+    text-align: center;
+}
+
+.single-product:hover
+{
+    
+-webkit-box-shadow: 3.5px 2.5px 5px 0px rgba(0, 0, 0, 0.30);
+}
+
+.single-product h4 {
+    padding: 0.7vh;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-fuente2);
+    font-weight: bold;
+    background-color: var(--color-blanco);
+
+}
+
+.single-product h5 {
+    font-size: 1.05rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: var(--color-fuente2);
+    background-color: var(--color-blanco);
+
+}
+
+.linkADetalle {
+    color: var(--color-fuente2);
+    font-size: 0.9rem;
+}
+
+.single-product img {
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+      
+}
+
+.imgProducto {
+    
+    width: 80%;
+    background-color: var(--color-blanco);
+    margin: 0 10%;
+    overflow: none;
+    border-radius: 15px;
+}
+
+.imgProducto img {
+    background-color: var(--color-blanco);
+    width: auto;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 732px) {
+
+.single-product {
+    
+            width: 31%;
+            padding-bottom: 25px;
+
+          
+        }
+    
+}
+
+@media only screen and (max-width: 732px) {
+
+    .single-product {
+    
+            width: 31%;
+            padding-bottom: 3vh;
+
+        }
+
+  
+
+                .imgProducto {
+                    
+                    width: 80%;
+                    height: 240px;
+                    border-radius: 15px;
+                    margin-bottom: 30px;
+                }
+    .single-product img {
+    width: auto;
+    height: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     
+}
+    }

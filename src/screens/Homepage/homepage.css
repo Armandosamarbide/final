@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F7F8FA;
+            
+}
+
+:root {
+    --color-cards: #ccc;
+    --color-negro: black;
+    --color-fuente: #2a3242;
+    --color-fuente2: #6B7A99;
+    --color-fuente3: #78788c;
+    --color-blanco: white;
+    --color-gris: grey;
+   
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-family: font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h4 {
+    font-size: 2rem;
+    font-family: font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h5 {
+    font-size: 0.6rem;
+    font-family: font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p { 
+
+    font-size: 0.6rem;
+    font-family: font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+h1.tituloPrincipal {
+color: var(--color-fuente);
+
+}
+
+.elementosHomepage {
+        width:76.5%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 10%;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+}
+
+.containerBusqueda {
+width: 30%;
+
+
+}
+
+.precio {
+    /* width: 40%; */
+    
+  
+}
+
+input.busqueda {
+    
+    width: 100%;
+    text-align: center;
+    border-radius: 100px;
+    border: 1.5px solid var(--color-fuente3);
+    background-color: var(--color-blanco);
+    margin: 20px 0%;
+    height:25px;
+    color: #2a3242;
+}
+
+form {
+    margin-left: 10px;
+}
+
+.grid-container-precio h3 {
+    color: var(--color-fuente);
+    
+    
+}
+
+.grid-item-precio {
+
+    float: left;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.grid-item-precio input {
+    font-size: 0.8rem;
+    height: 25px;
+    
+    background-color: var(--color-blanco);
+    float: left;
+    width: 70px;
+    padding: 5px;
+    color: #2a3242;
+    text-align: left;
+}
+
+.grid-item-precio input.precioIzq {
+    border-radius: 100px 0px 0px 100px;
+    border: 1.5px solid var(--color-fuente3);
+    margin-right: 0.07vw;
+}
+
+.grid-item-precio input.precioDer {
+    border: 1.5px solid var(--color-fuente3);
+    border-radius: 0 100px 100px 0;
+    margin-left: 0.07vw;
+
+}
+
+.listaProductos {
+    width: 80%;
+    margin: 0 10%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 25px;
+
+}
+
+@media only screen and (max-width: 732px) {
+    * {
+        
+    }
+
+
+.elementosHomepage {
+        width:76.5%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 10%;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        
+        
+}
+
+.containerBusqueda {
+width: 100%;
+
+}
+
+.listaProductos {
+    width: 80%;
+    margin: 0 10%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 calc(25% - 1em);
+    column-gap: 20px;
+    row-gap: 20px;
+    
+
+}
+
+
+        
+
+}

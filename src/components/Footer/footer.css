@@ -1,0 +1,41 @@
+footer {
+    background-color: #f8f9fa;
+    width: 100%;
+    
+}
+
+footer ul {
+    width: 80%;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1.5vh;
+    padding: 2vw;
+
+}
+
+footer ul li {
+   
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-fuente2);
+    font-size: 0.85rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-decoration: none;
+    list-style: none;
+    padding: 5vw 2vh;
+    letter-spacing: .3px;
+    flex: auto 0 auto;
+}
+
+footer ul li a {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-fuente2);
+    font-size: 0.85rem;
+    font-weight: 500;
+    
+
+}
